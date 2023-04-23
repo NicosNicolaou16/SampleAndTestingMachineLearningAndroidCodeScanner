@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SampleAndTestingMachineLearningAndroidCodeScanner</string>
+    <string name="scanACode">Scan a code</string>
+    <string name="cancel">Cancel</string>
+    <string name="open">Open</string>
+    <string name="openTheLink">Open the link</string>
+</resources>
