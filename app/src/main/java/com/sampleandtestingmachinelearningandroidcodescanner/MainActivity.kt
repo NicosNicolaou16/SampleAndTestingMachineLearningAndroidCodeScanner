@@ -51,11 +51,10 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun ScanButton(context: Context, modifier: Modifier = Modifier) {
     val openDialog = remember { mutableStateOf(false) }
-    val displayValue = ""
-    val displayLinkValue = remember { mutableStateOf(displayValue) }
-    if (openDialog.value) AlertDialog(displayLinkValue.value, openDialog,
+    val displayValue = remember { mutableStateOf("") }
+    if (openDialog.value) AlertDialog(displayValue.value, openDialog,
         confirmButton = {
-            openALink(context = context, displayLinkValue = displayLinkValue.value)
+            openALink(context = context, displayLinkValue = displayValue.value)
         })
     Box(contentAlignment = Alignment.Center) {
         ElevatedButton(
@@ -68,7 +67,7 @@ fun ScanButton(context: Context, modifier: Modifier = Modifier) {
             modifier = modifier.size(height = 70.dp, width = 250.dp),
             onClick = {
                 bacCodeProcess(context = context, success = {
-                    displayLinkValue.value = it
+                    displayValue.value = it
                     openDialog.value = true
                 }, canceled = {
                     Toast.makeText(context, R.string.cancel, Toast.LENGTH_LONG).show()
