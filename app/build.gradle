@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace 'com.sampleandtestingmachinelearningandroidcodescanner'
-    buildToolsVersion '34.0.0'
+    buildToolsVersion = '34.0.0'
     compileSdk 34
 
     defaultConfig {
