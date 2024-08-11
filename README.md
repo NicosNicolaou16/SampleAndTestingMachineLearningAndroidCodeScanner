@@ -6,4 +6,9 @@ The project is implemented with Jetpack Compose. <br />
 
 # References/Tutorials Follow
 https://twitter.com/AndroidDev/status/1642915475536453632?s=20 <br />
-https://developers.google.com/ml-kit/vision/barcode-scanning/code-scanner#java
+https://developers.google.com/ml-kit/vision/barcode-scanning/code-scanner#java <br />
+
+Target SDK version: 34 <br />
+Minimum SDK version: 27 <br />
+Kotlin version: 2.0.10 <br />
+Gradle version: 8.5.2 <br />
