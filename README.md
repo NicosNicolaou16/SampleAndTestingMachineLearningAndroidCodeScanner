@@ -12,7 +12,7 @@ https://medium.com/@nicosnicolaou/machine-learning-android-code-scanner-4301b91b
 https://twitter.com/AndroidDev/status/1642915475536453632?s=20 <br />
 https://developers.google.com/ml-kit/vision/barcode-scanning/code-scanner#java <br />
 
-Target SDK version: 34 <br />
-Minimum SDK version: 27 <br />
+Target SDK version: 35 <br />
+Minimum SDK version: 28 <br />
 Kotlin version: 2.0.21 <br />
 Gradle version: 8.7.1 <br />
