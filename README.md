@@ -15,4 +15,4 @@ https://developers.google.com/ml-kit/vision/barcode-scanning/code-scanner#java <
 Target SDK version: 35 <br />
 Minimum SDK version: 28 <br />
 Kotlin version: 2.0.21 <br />
-Gradle version: 8.7.1 <br />
+Gradle version: 8.7.2 <br />
