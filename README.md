@@ -1,8 +1,9 @@
 # Sample and Testing Machine Learning Android Code Scanner
-This sample and testing project contain the new Google Code Scanner. <br />
-The project is a simple button to start the Google Code Scanner. <br />
-For testing purpose, I generated a barcode with website link, scan the barcode and open this link in the browser, tested and supported to open only website link. <br />
-The project is implemented with Jetpack Compose. <br />
+
+This sample project demonstrates the new Google Code Scanner. It features a simple button to
+initiate the scanner. For testing purposes, I generated a barcode containing a website link, which,
+when scanned, opens the link in the browser. The project currently supports only opening website
+links. It is implemented using Jetpack Compose. <br />
 
 ## Check my article
 
@@ -17,5 +18,6 @@ Kotlin version: 2.1.0 <br />
 Gradle version: 8.7.2 <br />
 
 # References/Tutorials Follow
+
 https://twitter.com/AndroidDev/status/1642915475536453632?s=20 <br />
 https://developers.google.com/ml-kit/vision/barcode-scanning/code-scanner#java <br />
