@@ -12,6 +12,8 @@ The project is implemented with Jetpack Compose. <br />
 https://twitter.com/AndroidDev/status/1642915475536453632?s=20 <br />
 https://developers.google.com/ml-kit/vision/barcode-scanning/code-scanner#java <br />
 
+# Versioning
+
 Target SDK version: 35 <br />
 Minimum SDK version: 28 <br />
 Kotlin version: 2.1.0 <br />
