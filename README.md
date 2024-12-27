@@ -5,8 +5,6 @@ initiate the scanner. For testing purposes, I generated a barcode containing a w
 when scanned, opens the link in the browser. The project currently supports only opening website
 links. It is implemented using Jetpack Compose. <br />
 
-## Check my article
-
 > [!IMPORTANT]  
 > Check my article for the setup :point_right: [Android Machine Learning Code Scanner - Medium](https://medium.com/@nicosnicolaou/machine-learning-android-code-scanner-4301b91b1fa5) :point_left: <br />
 
@@ -15,7 +13,7 @@ links. It is implemented using Jetpack Compose. <br />
 Target SDK version: 35 <br />
 Minimum SDK version: 28 <br />
 Kotlin version: 2.1.0 <br />
-Gradle version: 8.7.2 <br />
+Gradle version: 8.7.3 <br />
 
 # References/Tutorials Follow
 
