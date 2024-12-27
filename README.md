@@ -6,7 +6,8 @@ The project is implemented with Jetpack Compose. <br />
 
 ## Check my article
 
-[Android Machine Learning Code Scanner - Medium](https://medium.com/@nicosnicolaou/machine-learning-android-code-scanner-4301b91b1fa5) <br />
+> [!IMPORTANT]  
+> Check my article for the setup :point_right: [Android Machine Learning Code Scanner - Medium](https://medium.com/@nicosnicolaou/machine-learning-android-code-scanner-4301b91b1fa5) :point_left: <br />
 
 # References/Tutorials Follow
 https://twitter.com/AndroidDev/status/1642915475536453632?s=20 <br />
