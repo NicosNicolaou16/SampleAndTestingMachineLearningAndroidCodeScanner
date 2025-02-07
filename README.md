@@ -12,8 +12,8 @@ links. It is implemented using Jetpack Compose. <br />
 
 Target SDK version: 35 <br />
 Minimum SDK version: 28 <br />
-Kotlin version: 2.1.0 <br />
-Gradle version: 8.7.3 <br />
+Kotlin version: 2.1.10 <br />
+Gradle version: 8.8.0 <br />
 
 # References/Tutorials Follow
 
