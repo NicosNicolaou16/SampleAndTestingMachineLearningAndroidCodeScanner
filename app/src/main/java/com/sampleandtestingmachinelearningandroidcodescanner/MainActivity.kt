@@ -23,6 +23,7 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.unit.dp
@@ -41,7 +42,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    ScanButton(this)
+                    ScanButton()
                 }
             }
         }
@@ -49,10 +50,12 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun ScanButton(context: Context, modifier: Modifier = Modifier) {
+fun ScanButton(modifier: Modifier = Modifier) {
+    val context = LocalContext.current
     val openDialog = remember { mutableStateOf(false) }
     val displayValue = remember { mutableStateOf("") }
-    if (openDialog.value) AlertDialog(displayValue.value, openDialog,
+    if (openDialog.value) AlertDialog(
+        displayValue.value, openDialog,
         confirmButton = {
             openALink(context = context, displayLinkValue = displayValue.value)
         })
