@@ -41,3 +41,13 @@ This sample project demonstrates the **Google Code Scanner** library. It feature
 
 *   **Google ML Kit Documentation:** [Code Scanner](https://developers.google.com/ml-kit/vision/barcode-scanning/code-scanner#java)
 *   **Android Developers on X:** [Tweet about Code Scanner](https://twitter.com/AndroidDev/status/1642915475536453632?s=20)
+
+## ⭐ Stargazers
+
+If you enjoy this project, please give it a star!
+Check out all the stargazers
+here: [Stargazers on GitHub](https://github.com/NicosNicolaou16/SampleAndTestingMachineLearningAndroidCodeScanner/stargazers)
+
+## 🙏 Support & Contributions
+
+This project is actively maintained. Feedback, bug reports, and feature requests are welcome! Please feel free to **open an issue** or submit a **pull request**.
