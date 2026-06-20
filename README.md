@@ -32,10 +32,10 @@ This sample project demonstrates the **Google Code Scanner** library. It feature
 
 ## 🔧 Versioning
 
-*   **Target SDK:** **36**
+*   **Target SDK:** **37**
 *   **Minimum SDK:** **29**
-*   **Kotlin Version:** **2.3.10**
-*   **Gradle Version:** **9.0.1**
+*   **Kotlin Version:** **2.4.0**
+*   **Gradle Version:** **9.2.1**
 
 ## 📚 References & Tutorials
 
