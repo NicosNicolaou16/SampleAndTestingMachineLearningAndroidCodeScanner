@@ -36,7 +36,7 @@ This sample project demonstrates the **Google Code Scanner** library. It feature
 *   **Minimum SDK:** **29**
 *   **Kotlin Version:** **2.4.21**
 *   **AGP Version:** **9.5.1**
-*   **Gradle Version:** **9.2.1**
+*   **Gradle Version:** **9.9.0**
 
 ## 📚 References & Tutorials
 
